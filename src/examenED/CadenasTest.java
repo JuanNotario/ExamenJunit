@@ -16,11 +16,13 @@ public class CadenasTest {
 		cad = new Cadenas();
 	}
 	
+	//Creamos un metodo que se ejecutara antes de cada @test
 	@Before
 	public void preMetodo() {
 		System.out.println("Inicio prueba");
 	}
 	
+	//Creamos un método que se ejecutara después de cada @test
 	@After
 	public void postMetodo() {
 		System.out.println("Fin Prueba");

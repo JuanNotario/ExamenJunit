@@ -18,7 +18,8 @@ public class CadenasTestParam {
 		this.cadena = cadena;
 		this.cadenaFinal = cadenaFinal;
 	}
-
+	
+	//Creamos un Array en el que le pasamos varias opciones para probarlo
 	@Parameters
 	public static Collection<Object[]> caracteres() {
 		return Arrays.asList(new Object[][]{ {"Ave", "ve"},
