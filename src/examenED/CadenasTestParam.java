@@ -22,7 +22,7 @@ public class CadenasTestParam {
 	//Creamos un Array en el que le pasamos varias opciones para probarlo
 	@Parameters
 	public static Collection<Object[]> caracteres() {
-		return Arrays.asList(new Object[][]{ {"Ave", "ve"},
+		return Arrays.asList(new Object[][]{ {"Av", "v"},
 											 {"Avestruz", "vestruz"},
 											 {"Girafa", "Girafa"}
 		});
