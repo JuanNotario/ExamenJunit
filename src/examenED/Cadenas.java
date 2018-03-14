@@ -26,6 +26,5 @@ public class Cadenas {
 
 		return primeros2Chars.equals(ultimos2Chars);
 	}
-
 }
 
